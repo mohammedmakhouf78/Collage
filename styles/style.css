@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: tegwal;
+    src: url('../fonts/Tajawal-Light.ttf');
+}
+
+html{
+    font-family: tegwal;
+}
+
+/* ******************* */
+/* Home Start */
+/* ******************* */
+
+.home{
+    display: flex;
+}
+
+.home .col1{
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    background-color: #3A3952;
+    transform: translateX(0%);
+    transition: transform 1s ease;
+}
+
+.home .nav-hidden{
+    transform: translateX(100%);
+}
+
+.home .col2{
+    background-color: #F0F0FA;
+    height: 1000px;
+    width: 100%;
+    padding-right: 300px;
+    transition: padding 1s ease;
+}
+
+.home .home-active{
+    padding-right: 0px;
+}
+
+.home .logo{
+    background-color: #34334a;
+    text-align: center;
+    padding: 1em 0em;
+}
+
+.home .logo img{
+    width: 150px;
+    height: 43px;
+}
+
+.home .links{
+    padding: 1em 1.5em;
+}
+
+.home .link{
+    margin-top: 2em;
+    font-weight: 900;
+    font-size: 18px;
+    color: white;
+}
+
+.home .link a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+    margin-right: 1em;
+}
+
+.home .col2 nav{
+    background-color: white;
+    padding: 1em 2em;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.home .col2 nav .burger{
+    cursor: pointer;
+}
+
+.home .col2 nav .burger>div{
+    width: 25px;
+    height: 2px;
+    background-color: #007bff;
+}
+
+.home .col2 nav .burger .line:nth-child(2){
+    margin: 6px 0em;
+    width: 20px;
+}
+.home .col2 nav .burger .line:nth-child(3){
+    width: 15px;
+}
+
+.home .col2 nav .burger:hover .line{
+    
+    width: 25px;
+    transition: all 0.5s ease;
+}
+/* ******************* */
+/* Home End */
+/* ******************* */
