@@ -1,23 +1,5 @@
-<div class="home">
-    <div class="col1">
-        <div class="logo">
-            <img src="./images/logo.png" alt="">
-        </div>
+<?php include "../components/header.php"; ?>
 
-        <div class="links">
-            <div class="link">
-                <i class="fas fa-home"></i>
-                <a href="">الشاشة الرئيسية</a>
-            </div>
-        </div>
-    </div>
-    <div class="col2">
-        <nav>
-            <div class="burger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
-        </nav>
-    </div>
-</div>
+<h1>هذه هي الصفحة الرئيسية</h1>
+
+<?php include "../components/footer.php"; ?>
